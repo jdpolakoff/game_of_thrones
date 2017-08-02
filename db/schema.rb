@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20170802174144) do
     t.string "name"
     t.integer "age"
     t.bigint "house_id"
+    t.string "img_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["house_id"], name: "index_characters_on_house_id"
@@ -30,6 +31,8 @@ ActiveRecord::Schema.define(version: 20170802174144) do
     t.datetime "updated_at", null: false
     t.string "head_of_house"
     t.string "territory"
+    t.string "img_url"
+    t.string "motto"
   end
 
 end
