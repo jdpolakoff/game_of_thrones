@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Houses of Westeros
 
 When you play the Game of Rails, you win or you die.
@@ -51,3 +52,29 @@ After -- **and only after** -- you have completed all of the above and implement
 - Create a `Category` model that has a many-to-many relationship with `Character`. A character can have many categories (e.g., "merciless") and a category can be associated with many characters. A `Tag` model/join table might be helpful here...
 - Create an admin role (i.e., somebody who can update/delete anything) using [CanCanCan](https://github.com/CanCanCommunity/cancancan). [This lesson plan](https://github.com/ga-wdi-lessons/cancancan) may come in handy.
 - Add a combat mode using custom routes and controllers that pits two characters against each other. Only one can survive! The logic that determines who wins is up to you. Models are not necessary for this feature, but certainly could be used to implement it.
+=======
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+>>>>>>> created models, migrations, seeds
