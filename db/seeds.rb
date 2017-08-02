@@ -21,5 +21,5 @@ martell = House.create!(name: "Martell of Sunspear", territory: "Rulers of Dorne
 
 catelyn = Character.create!(name: "Lady Catelyn Stark", house: tully, img_url: "https://typeset-beta.imgix.net/rehost%2F2016%2F9%2F13%2F27a62b38-29c2-4f7f-a890-6ed063276f55.jpg")
 jon_snow = Character.create!(name: "Jon Snow", house: stark, img_url: "http://gameofthrones.wikia.com/wiki/Jon_Snow?file=Jon_Dragonstone_The_Queens_Justice.jpg")
-tyrion = Character.create!(name: "Tyrion Lannister", house: lannister, img_url: "http://gameofthrones.wikia.com/wiki/Tyrion_Lannister?file=GoT-Sn7_FirstLook_14.jpg")
+tyrion = Character.create!(name: "Tyrion Lannister", house: lannister, img_url: "https://typeset-beta.imgix.net/2016/4/4/tyrion-lannister-1920-8a5b9538-e833-41d0-b420-21ef072e7b1a.jpg")
 joffrey = Character.create!(name: "Joffrey Baratheon", house: baratheon, img_url: "https://www.google.com/imgres?imgurl=http://vignette3.wikia.nocookie.net/gameofthrones/images/4/4c/JoffreyBaratheon-Profile.PNG/revision/latest%3Fcb%3D20160626094917&imgrefurl=http://gameofthrones.wikia.com/wiki/Joffrey_Baratheon&h=500&w=500&tbnid=FvKEbIql5Cf9HM:&tbnh=186&tbnw=186&usg=__GbZoMDUM737a65_FVv6n0KLI6A0=&vet=10ahUKEwi-8437nbnVAhXDJFAKHZDHDO8Q_B0IxQEwFQ..i&docid=B895Yn6ofex86M&itg=1&sa=X&ved=0ahUKEwi-8437nbnVAhXDJFAKHZDHDO8Q_B0IxQEwFQ&ei=OCGCWb73CsPJwAKQj7P4Dg")
