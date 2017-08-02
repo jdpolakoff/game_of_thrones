@@ -7,3 +7,12 @@
   <img src = "<%= @house.img_url %>"/>
 
 </div>
+
+<% @house.characters.each do |character| %>
+    <br>  Characters: <%= link_to character.name, house_character_path(@house, character) %>
+  <% end %>
+
+
+<br><br>
+
+<%= link_to "Back to houses", houses_path %>
