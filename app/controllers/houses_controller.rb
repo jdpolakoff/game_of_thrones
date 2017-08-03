@@ -1,5 +1,7 @@
 class HousesController < ApplicationController
 
+  before_action :authenticate_user!, :except => [:show, :index]
+
   def index
     @houses = House.all
   end
@@ -32,7 +34,7 @@ class HousesController < ApplicationController
     @house = House.find(params[:id])
     @house.destroy
     redirect_to houses_path
-  end 
+  end
 
   private
   def house_params

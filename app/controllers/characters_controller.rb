@@ -1,5 +1,8 @@
 class CharactersController < ApplicationController
 
+  before_action :authenticate_user!, :except => [:show, :index]
+
+
   def index
     @characters = Character.all
   end
