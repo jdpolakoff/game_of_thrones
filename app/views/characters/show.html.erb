@@ -2,4 +2,11 @@
 
 <%= @character.name %>
 
-<img src = "<%= @character.img_url %>"/>
+<br><br>
+
+<img src = "<%= @character.img_url %>" style = "height: 300px; border-radius: 200px"/>
+
+<br><br>
+
+<%= link_to "Edit this character", edit_house_character_path %> <br><br>
+<%= link_to "Back to houses", houses_path %>

@@ -29,3 +29,35 @@ body {
   margin-top: 5%
 
 }
+
+.button {
+
+  font-family: "thrones";
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+
+}
+
+.update_button {
+
+  font-family: "thrones";
+  background-color: green;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+
+}
+
+input {
+
+  font-family: "thrones";
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+
+}

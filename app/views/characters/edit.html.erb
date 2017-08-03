@@ -1,0 +1,11 @@
+<h1> Edit Your Character </h1>
+
+<%= render 'form' %>
+
+<br>
+
+<%= form_for [@house, @character], method: :delete do |f| %>
+
+  <%= f.submit "Kill this character!", class: 'button'%>
+
+<% end %>
