@@ -1,0 +1,18 @@
+
+<%= form_for @house do |f| %>
+
+  <%= f.label "Name" %>:
+  <%= f.text_field :name %>
+
+  <%= f.label "Crest (Image url)" %>:
+  <%= f.text_field :img_url %>
+
+  <%= f.label "Motto" %>:
+  <%= f.text_field :motto %>
+
+
+  <br /><br />
+
+  <%= f.submit class: 'update_button' %>
+
+<% end %>

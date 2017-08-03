@@ -4,7 +4,7 @@
 
 <div class = "house_image">
 
-  <img src = "<%= @house.img_url %>"/>
+  <img src = "<%= @house.img_url %>" style = "height: 300px" />
 
 </div>
 
@@ -16,5 +16,7 @@
 <%= link_to "Create a new character for this house", new_house_character_path(@house, @character) %>
 
 <br><br>
+
+<%= link_to "Edit this house", edit_house_path %> <br><br>
 
 <%= link_to "Back to houses", houses_path %>
