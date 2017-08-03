@@ -1,6 +1,6 @@
 <h1> Character </h1>
 
-<%= @character.name %>
+<%= "#{@character.name}, member of #{@house.name}"%>
 
 <br><br>
 
@@ -8,5 +8,8 @@
 
 <br><br>
 
-<%= link_to "Edit this character", edit_house_character_path %> <br><br>
+<%= link_to "Edit or kill this character", edit_house_character_path %> <br><br>
+
+<%= link_to "Back to #{@house.name}", house_path(@house) %><br><br>
+
 <%= link_to "Back to houses", houses_path %>

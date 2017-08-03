@@ -62,3 +62,9 @@ input {
   width: 200px;
 
 }
+
+.reset_password_button {
+
+  min-width: 300px;
+
+}

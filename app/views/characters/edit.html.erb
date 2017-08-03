@@ -9,3 +9,13 @@
   <%= f.submit "Kill this character!", class: 'button'%>
 
 <% end %>
+
+<br>
+
+<%= link_to "Back to #{@character.name}", house_character_path(@house, @character) %>
+
+<br><br>
+
+<%= link_to "Back to #{@house.name}", house_path(@house) %><br><br>
+
+<%= link_to "Back to houses", houses_path %>

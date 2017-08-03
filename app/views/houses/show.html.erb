@@ -8,15 +8,22 @@
 
 </div>
 
-<p>Characters:</p>
+<%if @house.characters.length == 1 %>
+<p>Character:</p>
 <% @house.characters.each do |character| %>
     <%= link_to character.name, house_character_path(@house, character) %><br><br>
   <% end %>
+  <% elsif @house.characters.length >= 2 %>
+  <p>Characters:</p>
+  <% @house.characters.each do |character| %>
+      <%= link_to character.name, house_character_path(@house, character) %><br><br>
+    <% end %>
+<% end %>
 
 <%= link_to "Create a new character for this house", new_house_character_path(@house, @character) %>
 
 <br><br>
 
-<%= link_to "Edit this house", edit_house_path %> <br><br>
+<%= link_to "Edit or destroy this house", edit_house_path %> <br><br>
 
 <%= link_to "Back to houses", houses_path %>
